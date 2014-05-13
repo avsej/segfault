@@ -1,6 +1,6 @@
 # Segfault
 
-TODO: Write a gem description
+The helper to easily abort your ruby program with segmentation fault error.
 
 ## Installation
 
@@ -18,11 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'segfault'
+
+Segfault.dereference_null
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/segfault/fork )
+1. Fork it ( https://github.com/avsej/segfault/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
